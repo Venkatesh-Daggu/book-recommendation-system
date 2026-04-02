@@ -3,6 +3,8 @@ import streamlit as st
 import numpy as np
 
 st.header("Book Recommender System Using Machine Learning")
+import sklearn
+print("sklearn loaded")
 model=pickle.load(open('pickels/model.pkl','rb'))
 books_name=pickle.load(open('pickels/book_name.pkl','rb'))
 final_rating=pickle.load(open('pickels/final_rating.pkl','rb'))

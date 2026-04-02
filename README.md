@@ -30,17 +30,13 @@ Simple and clean UI using Streamlit
 
 ## 📁 Project Structure
 book-recommendation-system/
-
 │
-
 ├── app.py
-
 ├── pickels/
-
-│   ├── model.pkl
-│   ├── book_name.pkl
-│   ├── final_rating.pkl
-│   ├── book_pivot.pkl
+│ ├── model.pkl
+│ ├── book_name.pkl
+│ ├── final_rating.pkl
+│ ├── book_pivot.pkl
 │
 ├── requirements.txt
 └── README.md

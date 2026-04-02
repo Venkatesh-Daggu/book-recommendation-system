@@ -28,6 +28,19 @@ Get top similar book recommendations
 Displays book titles along with their posters
 Simple and clean UI using Streamlit
 
+## 📁 Project Structure
+book-recommendation-system/
+│
+├── app.py
+├── pickels/
+│   ├── model.pkl
+│   ├── book_name.pkl
+│   ├── final_rating.pkl
+│   ├── book_pivot.pkl
+│
+├── requirements.txt
+└── README.md
+
 ## ▶️ How to Run
 Clone the repository
 Install the required libraries
@@ -35,5 +48,5 @@ pip install -r requirements.txt
 Run the Streamlit app
 streamlit run app.py
 
-📌 Final Note
+## 📌 Final Note
 This project helped me understand how recommendation systems work in real-world scenarios, especially how user behavior can be used to suggest relevant items.
